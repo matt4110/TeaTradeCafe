@@ -507,13 +507,11 @@ header .stripe-pattern{
 	height: 50px;
 }
 
-
 .nav, .nav ul{
 	background-color: #000;
 	margin: 0;
 	padding: 7px 0 7px 100px;
 }
-
 
 .nav ul li, .nav ul li a{
 	display: inline;
@@ -597,9 +595,22 @@ button:hover{
 	margin: 50px auto 100px auto;
 }
 
+#shop{
+	margin-bottom: 100px;
+}
+
 footer{
 	margin-top: 100px;
 	padding: 50px;
+	display: grid;
+	grid-template-columns: 1fr 4fr 4fr;
+	grid-template-rows: auto;
+	justify-items: center;
+	align-items: start;
+}
+
+#lets-connect{
+
 }
 
 /*//////////////////////////////////////////////////////
@@ -668,4 +679,9 @@ img{
 	position: absolute;
 	left: 40px;
 	top: 16px;
+}
+
+#footerlogo{
+	width:110px;
+	grid-area: 1 / 1 / 2 / 2;
 }
