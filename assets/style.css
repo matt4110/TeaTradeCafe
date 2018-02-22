@@ -532,7 +532,7 @@ iframe{
 	max-width: 100%;
 }
 
-button{
+button, form input[type=submit]{
 	background-color: #b1a441;
 	color: white;
 	padding: 18px 40px;
@@ -545,10 +545,20 @@ button{
 	transition: .4s;
 }
 
-button:hover{
+button:hover, form input[type=submit]:hover{
 	background-color: #9f943b;
 	transition: .4s;
 }
+
+form input[type=email], textarea{
+	display: block;
+	background-color: white;
+	border: 12px solid #ba9c52;
+	padding: 5px 15px 5px 15px;
+	width: 342px;
+	margin: 20px 0;
+}
+
 
 /*//////////////////////////////////////////////////////
 ///////////// Layout ///////////////////////////////////
@@ -684,4 +694,11 @@ img{
 #footerlogo{
 	width:110px;
 	grid-area: 1 / 1 / 2 / 2;
+}
+
+#social-media{
+	display: block;
+	width: 100px;
+	margin-left: auto;
+	margin-right: auto;
 }
