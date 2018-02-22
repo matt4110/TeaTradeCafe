@@ -659,7 +659,6 @@ h2{
 }
 
 #hero-title{
-	padding-top: 350px;
 	font-style: italic;
 	font-weight: 300;
 	font-size: 6rem;
@@ -678,9 +677,13 @@ img{
 }
 
 #main-page-hero{
+	display: grid;
+	grid-template: 1 / 1;
+	justify-items: center;
+	align-items: center;
 	height: 100%;
 	background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('hero.jpg');
-	background-size: 100% 100%;
+	background-size: cover;
 	background-repeat: no-repeat;
 }
 
