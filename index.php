@@ -1,20 +1,32 @@
+<?php
+/**
+ * The main template file
+ *
+ * @package WordPress
+ * @subpackage TTC
+ * @since 1.0
+ * @version 1.0
+ */
+
+wp_head(); ?>
+
 <!DOCTYPE html>
 <html>
 <head>
 	<title>Tea Trade Cafe</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="./assets/style.css">
+	<link rel="stylesheet" type="text/css" href=<?php get_bloginfo( 'url' ); ?>"/wp-content/themes/TeaTradeCafe/style.css">
 </head>
 <body>
 	<header>
 		<div class="stripe-pattern" height="100px">&nbsp;</div><div class="clearfix"></div>
 		<hr><hr>
-		<a href="index.php"><img id="logo" src="./assets/logo.png"></a>
+		<a href=<?php get_bloginfo( 'url' ); ?>"/home"><img id="logo" src=<?php get_bloginfo( 'url' ); ?>"/wp-content/themes/TeaTradeCafe/assets/logo.png"></a>
 		<div class="nav">
 			<ul>
-				<li><a href="./assets/menu.pdf" target="_blank">menu</a></li>
+				<li><a href=<?php get_bloginfo( 'url' ); ?>"/wp-content/themes/TeaTradeCafe/assets/menu.pdf" target="_blank">menu</a></li>
 				<li id="nav-loc"><a href="#loc-hrs-bar">Location</a></li>
-				<li><a href="shop.html">shop</a></li>
+				<li><a href=<?php get_bloginfo( 'url' ); ?>"/shop/">shop</a></li>
 			</ul>
 		</div>
 		<hr><hr>
@@ -50,28 +62,28 @@
 		<div class="clearfix">&nbsp;</div>
 	</section>
 	<section id="shop">
-		<img id="brew-the-change" src="./assets/brew-the-change.png">
+		<img id="brew-the-change" src=<?php get_bloginfo( 'url' ); ?>"/wp-content/themes/TeaTradeCafe/assets/brew-the-change.png">
 		<div id='collection-component-fabf7715671'></div>
-		<a href="/shop.html" style="display: flex; justify-content: center;"><button>Shop Entire Collection</button></a>
+		<a href=<?php get_bloginfo( 'url' ); ?>"/shop" style="display: flex; justify-content: center;"><button>Shop Entire Collection</button></a>
 	</section>
   <hr>
   <footer class="stripe-pattern">
-    <img id="footerlogo" src="./assets/logo.png">
+    <img id="footerlogo" src=<?php get_bloginfo( 'url' ); ?>"/wp-content/themes/TeaTradeCafe/assets/logo.png">
 
     <div id="lets-connect">
-      <img src="./assets/lets-connect.png">
+      <img src=<?php get_bloginfo( 'url' ); ?>"/wp-content/themes/TeaTradeCafe/assets/lets-connect.png">
       <div class="white-box" style="margin-top: 20px;">
         <p style="font-style: italic; text-align: center;font-size: 1.15rem;">Follow us for the latest news,<br>specials, and fun</p>
         <div id="social-media">
-          <a id="fb-icon" href="http://www.facebook.com/TeaTradeCafe/"><img src="./assets/fb-icon.png"></a>
-          <a href="http://www.instagram.com/teatradecafe/"><img src="./assets/ig-icon.png"></a>
+          <a id="fb-icon" href="http://www.facebook.com/TeaTradeCafe/"><img src=<?php get_bloginfo( 'url' ); ?>"/wp-content/themes/TeaTradeCafe/assets/fb-icon.png"></a>
+          <a href="http://www.instagram.com/teatradecafe/"><img src=<?php get_bloginfo( 'url' ); ?>"/wp-content/themes/TeaTradeCafe/assets/ig-icon.png"></a>
         </div>
       </div>
     </div>
 
     <div id="message-us">
-      <img src="./assets/message.png">
-      <form method="post" action="contact-submit.php" id="message-form"> 
+      <img src=<?php get_bloginfo( 'url' ); ?>"/wp-content/themes/TeaTradeCafe/assets/message.png">
+      <form method="post" action=<?php get_bloginfo( 'url' ); ?>"/wp-content/themes/TeaTradeCafe/contact-submit.php" id="message-form"> 
         <input type="email" name="Email" placeholder="Email">
         <textarea name="Message" form="message-form" placeholder="Write Your Message to Us Here" rows="4"></textarea>
         <input type="submit" name="submit" value="Submit">
