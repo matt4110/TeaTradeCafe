@@ -19,37 +19,19 @@ wp_head(); ?>
 		<a href=<?php get_bloginfo( 'url' ); ?>"/home"><img id="logo" src=<?php get_bloginfo( 'url' ); ?>"/wp-content/themes/TeaTradeCafe/assets/logo.png"></a>
 		<div class="nav">
 			<ul>
-<<<<<<< HEAD:shop.html
-				<li><a href="./assets/menu.pdf" target="_blank">menu</a></li>
-				<li><a href="index.html?#loc-hrs-bar">Location</a></li>
-				<li id="nav-loc"><a href="shop.html">shop</a></li>
-=======
 				<li><a href=<?php get_bloginfo( 'url' ); ?>"/wp-content/themes/TeaTradeCafe/assets/menu.pdf" target="_blank">menu</a></li>
 				<li><a href=<?php get_bloginfo( 'url' ); ?>"/home#loc-hrs-bar">Location</a></li>
 				<li id="nav-loc"><a href="shop.php">shop</a></li>
->>>>>>> 057791c2993467c98571938f9afc0e947e47233a:shop.php
 			</ul>
 		</div>
 		<hr><hr>
 	</header>
-<<<<<<< HEAD:shop.html
-	<div class="clearfix">&nbsp;</div>
-	<div style="height: 100px;">&nbsp;</div>
-	<section style="padding: 25px;">
-		<div id='collection-component-06743840a6b'></div>
-	</section>
-	<hr>
-  	<footer class="stripe-pattern">
-    <img id="footerlogo" src="./assets/logo.png">
-=======
   <h1 id="hero-title" style="color: #444; margin-top: 75px;">Shop with a Purpose</h1>
   <p style="text-align: center;color:#999; font-size: .9rem;">Checkout will redirect you to our Warchest Boutique site</p>
 	<div id='collection-component-06743840a6b'></div>
 	<hr>
   <footer class="stripe-pattern">
     <img id="footerlogo" src=<?php get_bloginfo( 'url' ); ?>"/wp-content/themes/TeaTradeCafe/assets/logo.png">
->>>>>>> 057791c2993467c98571938f9afc0e947e47233a:shop.php
-
     <div id="lets-connect">
       <img src=<?php get_bloginfo( 'url' ); ?>"/wp-content/themes/TeaTradeCafe/assets/lets-connect.png">
       <div class="white-box" style="margin-top: 20px;">
@@ -64,8 +46,9 @@ wp_head(); ?>
     <div id="message-us">
       <img src=<?php get_bloginfo( 'url' ); ?>"/wp-content/themes/TeaTradeCafe/assets/message.png">
       <form method="post" action=<?php get_bloginfo( 'url' ); ?>"/wp-content/themes/TeaTradeCafe/contact-submit.php" id="message-form"> 
-        <input type="email" name="Email" placeholder="Email">
-        <textarea name="Message" form="message-form" placeholder="Write Your Message to Us Here" rows="4"></textarea>
+        <input type="email" name="Email" placeholder="Email" required>
+        <textarea name="Message" form="message-form" placeholder="Write Your Message to Us Here" rows="4" required></textarea>
+        <input type="email" name="pot-email" id="pot">
         <input type="submit" name="submit" value="Submit">
       </form>
     </div>
