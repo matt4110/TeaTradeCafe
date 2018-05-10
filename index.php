@@ -87,6 +87,7 @@ wp_head(); ?>
       <form method="post" action=<?php get_bloginfo( 'url' ); ?>"/wp-content/themes/TeaTradeCafe/contact-submit.php" id="message-form"> 
         <input type="email" name="Email" placeholder="Email" required>
         <textarea name="Message" form="message-form" placeholder="Write Your Message to Us Here" rows="4" required></textarea>
+        <input type="email" name="pot-email" id="pot">
         <input type="submit" name="submit" value="Submit">
       </form>
     </div>
