@@ -27,6 +27,7 @@ wp_head(); ?>
 				<li><a href=<?php get_bloginfo( 'url' ); ?>"/wp-content/themes/TeaTradeCafe/assets/menu.pdf" target="_blank">menu</a></li>
 				<li id="nav-loc"><a href="#loc-hrs-bar">Location</a></li>
 				<li><a href=<?php get_bloginfo( 'url' ); ?>"/shop/">shop</a></li>
+        <li><a href=<?php get_bloginfo( 'url' ); ?>"/wp-content/themes/TeaTradeCafe/assets/catering-menu.pdf" target="_blank">catering</a></li>
 			</ul>
 		</div>
 		<hr><hr>
@@ -58,7 +59,7 @@ wp_head(); ?>
 	</section>
 	<section id="mission-bar">
 		<h3 id="mission-title">Your morning coffee can save lives</h3>
-		<p id="mission-p">Each purchase at the Tea Trade Cafe will support at-risk and rescued women all around the world. This café will also serve as a training ground for women who have been rescued from injustices like human trafficking, where barista and business skills will be taught. Serving fair trade coffee and teas, each dining experience will provide sustainable income for artisans all over the world, ensuring they work in safe environments.</p>
+		<p id="mission-p">Each purchase at the Tea Trade Cafe supports at-risk and rescued women all around the world. This café also serves as a training ground for women who have been rescued from injustices like human trafficking, where barista and business skills are taught. Serving fair trade coffee and teas, each dining experience provides sustainable income for artisans all over the world, ensuring they work in safe environments.</p>
 		<div class="clearfix">&nbsp;</div>
 	</section>
 	<section id="shop">
@@ -84,8 +85,8 @@ wp_head(); ?>
     <div id="message-us">
       <img src=<?php get_bloginfo( 'url' ); ?>"/wp-content/themes/TeaTradeCafe/assets/message.png">
       <form method="post" action=<?php get_bloginfo( 'url' ); ?>"/wp-content/themes/TeaTradeCafe/contact-submit.php" id="message-form"> 
-        <input type="email" name="Email" placeholder="Email">
-        <textarea name="Message" form="message-form" placeholder="Write Your Message to Us Here" rows="4"></textarea>
+        <input type="email" name="Email" placeholder="Email" required>
+        <textarea name="Message" form="message-form" placeholder="Write Your Message to Us Here" rows="4" required></textarea>
         <input type="submit" name="submit" value="Submit">
       </form>
     </div>

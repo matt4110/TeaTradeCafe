@@ -792,10 +792,11 @@ img{
 
 	.nav ul li, .nav ul li a{
 		margin-left: 10px;
+		margin-bottom: 20px;
 		font-size: 1rem;
 	}
 	.nav ul li:after {
-	    padding-left: 25px;
+	    padding-left: 10px;
 	}
 	#main-page-hero{
 		max-height: 250px;
