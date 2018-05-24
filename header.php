@@ -25,11 +25,16 @@ wp_head(); ?>
 		<hr><hr>
 		<a href=<?php get_bloginfo( 'url' ); ?>"/home"><img id="logo" src=<?php get_bloginfo( 'url' ); ?>"/wp-content/themes/TeaTradeCafe/assets/logo.png"></a>
 		<div class="nav">
-			<ul>
-				<li><a href=<?php get_bloginfo( 'url' ); ?>"/wp-content/themes/TeaTradeCafe/assets/menu.pdf" target="_blank">menu</a></li>
-				<li id="nav-loc"><a href="#loc-hrs-bar">Location</a></li>
-				<li><a href=<?php get_bloginfo( 'url' ); ?>"/shop/">shop</a></li>
-        <li><a href=<?php get_bloginfo( 'url' ); ?>"/wp-content/themes/TeaTradeCafe/assets/catering-menu.pdf" target="_blank">catering</a></li>
+			<ul id="nav-list">
+				<li id="nav-home"><a href=<?php get_bloginfo( 'url' ); ?>"/home">home</a>
+				<li id="first-bullet"><img src=<?php get_bloginfo( 'url' ); ?>"/wp-content/themes/TeaTradeCafe/assets/bullet.png"></li>
+				<li id="nav-menu"><a href=<?php get_bloginfo( 'url' ); ?>"/wp-content/themes/TeaTradeCafe/assets/menu.pdf" target="_blank">menu</a></li>
+				<li id="second-bullet"><img src=<?php get_bloginfo( 'url' ); ?>"/wp-content/themes/TeaTradeCafe/assets/bullet.png"></li>
+				<li id="nav-loc"><a href="http://teatradecafe.com/home#loc-hrs-bar">Location</a></li><!-- dynamic link did not work with loc id -->
+				<li id="third-bullet"><img src=<?php get_bloginfo( 'url' ); ?>"/wp-content/themes/TeaTradeCafe/assets/bullet.png"></li>
+				<li id="nav-shop"><a href=<?php get_bloginfo( 'url' ); ?>"/shop/">shop</a></li>
+				<li id="fourth-bullet"><img src=<?php get_bloginfo( 'url' ); ?>"/wp-content/themes/TeaTradeCafe/assets/bullet.png"></li>
+        		<li id="nav-catering"><a href=<?php get_bloginfo( 'url' ); ?>"/wp-content/themes/TeaTradeCafe/assets/catering-menu.pdf" target="_blank">catering</a></li>
 			</ul>
 		</div>
 		<hr><hr>
