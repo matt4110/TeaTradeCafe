@@ -28,7 +28,7 @@ get_header(); ?>
 			<div id="hrs" class="white-box">
 				<h2 style="text-align: center;">Hours</h2>
 				<hr class="thin-hr">
-				<p style="text-align: center; font-size: 1.5rem;">Monday - Friday<br>8am - 5pm<br>Weekday Evenings & Saturdays<br>Open for Events</p>
+				<p style="text-align: center; font-size: 1.5rem;">Monday - Friday<br>7am - 6pm<br>Saturdays<br>Open for Events Only</p>
 				<hr class="thin-hr">
 			</div>
 
